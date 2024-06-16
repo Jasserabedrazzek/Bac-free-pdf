@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+.container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.PDFs {
+    overflow-y: scroll;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.box {
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.Titles {
+    width: 100%;
+    margin-left: -19px;
+    background: rgb(34,193,195);
+    background: linear-gradient(36deg, rgba(34,193,195,1) 0%, rgba(197,45,253,1) 100%);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.pdfBox {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    max-width: 80%;
+    border-radius: 15px;
+    background-color: azure;
+}
+.name {
+    font-size: .9375rem;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    padding: 10px;
+    overflow-y: scroll;
+
+}
+.name::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.fileSize {
+    font-size: .9375rem;
+    color: #333;
+    padding: 5px;
+    font-family: Arial;
+    font-family: 600;
+}
+.buttons {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+} 
+.links {
+
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 12px;
+}
+.profile {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    
+}
+img {
+    border-radius: 50%;
+}
+.name_pro {
+    color: blue;
+}
+.vi {
+    color:white;
+    background-color: red;
+}
+.do {
+    background-color: blueviolet;
+    color: white;
+}
